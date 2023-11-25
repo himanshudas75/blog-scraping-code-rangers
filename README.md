@@ -15,5 +15,8 @@ python app.py
 ### Configurations
 You can modify the configurations as per your choice in the .env file.
 
+### Sample Output
+A sample output Excel file is provided in the **sample_data** folder.
+
 ### Other Requirements
-Python version in which this tool is working: Python 3.9.16
+Python version in which this tool is working: **Python 3.9.16**
