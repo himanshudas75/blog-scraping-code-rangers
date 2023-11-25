@@ -36,8 +36,8 @@ def parse(url, index):
             "Page Number": index,
             "Title": title,
             "Date": date,
-            "Image": image,
-            "Likes": likes
+            "Likes": likes,
+            "Image": image
         }
 
         all_blogs.append(blog_details)
