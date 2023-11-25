@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import subprocess as sb
 from .extract_data import get_blog_date, get_blog_image, get_blog_likes, get_blog_title
 
-
 def get_page_data(url):
     result = sb.run(['curl', '-i', '-L', url], capture_output=True, text=True)
     soup = BeautifulSoup(result.stdout, 'html.parser')
